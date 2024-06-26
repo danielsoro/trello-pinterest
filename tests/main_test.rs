@@ -1,5 +1,5 @@
 use axum::http::StatusCode;
-use trello_pinterest::server::start_server;
+use trello_pinterest::http::start_server;
 
 #[tokio::test]
 async fn webhook_should_be_able_to_get_card_move() {
